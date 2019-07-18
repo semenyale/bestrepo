@@ -61,6 +61,7 @@ int main(void){
 
 	for(int i = 0; i < 3; i ++){
 		delete [] matrix[i];
+        cout<<"deleting now"<<endl;
 	}
 	delete[] matrix;
 
